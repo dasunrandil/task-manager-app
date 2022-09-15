@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="345.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashFormController">
+   <children>
+      <ImageView fitHeight="339.0" fitWidth="502.0" layoutX="6.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-6.0">
+         <image>
+            <Image url="@../image/task-manager.jpeg" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="pgbContainer" fill="DODGERBLUE" height="8.0" layoutY="337.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="485.0" />
+      <Rectangle fx:id="pgbBar" fill="#59ff1f" height="8.0" layoutY="337.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="10.0" />
+      <Label fx:id="lblStatus" alignment="CENTER" layoutY="280.0" text="Task Manager is loading..." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="Cantarell Extra Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

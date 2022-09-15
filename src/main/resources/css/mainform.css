@@ -1,0 +1,20 @@
+#lblClose{
+    -fx-text-fill: rgb(255,0,0);
+}
+
+#lblClose:hover{
+    -fx-text-fill: orange;
+}
+
+#lblMinimize{
+    -fx-text-fill: rgba(0,0,0);
+}
+
+#lblMinimize:hover{
+    -fx-text-fill: gray;
+}
+
+#btnAddNewTask{
+    -fx-background-color: #008dff;
+    -fx-text-fill: white;
+}
